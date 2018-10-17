@@ -1,0 +1,12 @@
+# IT-resource
+ITResourceDef:SAPHR
+ITResource:SAPHRTrusted
+# Jobs
+Job:SAPHRTrusted User Recon
+# Lookups
+Lookup:Lookup.SAPHR.Configuration
+Lookup:Lookup.SAPHR.OM.Configuration
+Lookup:Lookup.SAPHR.OM.ReconAttrMap
+Lookup:Lookup.SAPHR.OM.ReconDefaults
+# Resources
+Resource:Xellerate Organization

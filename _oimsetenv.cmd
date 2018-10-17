@@ -1,0 +1,9 @@
+@echo off
+set APPSERVER_TYPE=wls
+set OIM_ORACLE_HOME=%MW_HOME%/idm
+set CON_PATH=%OIM_ORACLE_HOME%/designconsole
+set MOD_PATH=%MW_HOME%/oracle_common/modules
+set CLASSPATH=.;%CON_PATH%/ext/wlthint3client.jar;
+set CLASSPATH=%CLASSPATH%;%CON_PATH%/lib/oimclient.jar;%CON_PATH%/lib/xlAPI.jar;
+set CLASSPATH=%CLASSPATH%;%CON_PATH%/lib/xlDataObjectBeans.jar;
+set CLASSPATH=%CLASSPATH%;%MOD_PATH%/oracle.jrf/jrf-api.jar;

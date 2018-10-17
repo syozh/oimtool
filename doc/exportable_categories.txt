@@ -1,0 +1,45 @@
+AccessPolicy
+AdminRole
+ApplicationInstance
+ApplicationTemplate
+ApprovalPolicy
+AttestationProcess
+CatalogDefinition
+CertificationConfiguration
+CertificationDefinition
+CustomResourceBundle
+DataObjectDef
+EmailDef
+EntityAdapter
+ErrorCode
+EventHandler
+GTCProvider
+GenericConnector
+IDAConfiguration
+IDARules
+IDAScanDefinition
+ITResource
+ITResourceDef
+Jar
+Job
+Lookup
+NOTIFICATIONTEMPLATE
+Org Metadata
+Organization
+PasswordPolicy
+Plugin
+Policies
+PrepopAdapter
+Process
+Process Form
+RequestDataset
+Resource
+RiskConfiguration
+Role Metadata
+Rule
+SystemProperties
+TaskAdapter
+User Metadata
+UserGroup
+eventhandlers
+scheduledTask
