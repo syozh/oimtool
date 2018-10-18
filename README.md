@@ -9,8 +9,8 @@ Multiple objects can be specified:
 * or in a file: `oimtool.cmd COMMAND -f FILE` (each line in file represents a separate argument)
 
 Available commands:
-* `itresparams ITRESNAME` - output parameters of IT-resource ITRESNAME.
-* `categories` - output exportable categories names.
+* `itresparams ITRESNAME` - print parameters of IT-resource ITRESNAME.
+* `categories` - print exportable categories names.
 * `export1 OBJSPEC(S)` - export objects to one file. OBJSPEC is "Category:Name", e.g. "Lookup:Lookup.SAPHCM.OM.ReconAttrMap".
 * `export2 OBJSPEC(S)` - export objects to separate files.
 * `import DEPLOYMENTFILE(s)` - import objects from deployment file(s). **FIXME: Dependencies resolution does not work yet**
@@ -19,5 +19,5 @@ Available commands:
 * `uploadjars JAR` - upload jar(s).
 * `updatejars JAR` - update jar(s).
 * `deletejars JAR` - delete jar(s).
-* `purge OBJ(s)` - PurgeCache for specified object(s).
-* `purgeall` - PurgeCache All.
+* `purge OBJ(s)` - purge cache for specified object(s).
+* `purgeall` - purge cache for all.
